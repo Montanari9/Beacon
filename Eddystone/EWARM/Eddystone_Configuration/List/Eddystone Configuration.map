@@ -1,0 +1,598 @@
+###############################################################################
+#
+# IAR ELF Linker V7.70.1.11437/W32 for ARM                26/Oct/2016  14:37:34
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Exe\Eddystone
+#        Configuration.out
+#    Map file     =  
+#        C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\List\Eddystone
+#        Configuration.map
+#    Command line =  
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\adc.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\bluenrg_gap_aci.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\bluenrg_gatt_aci.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\bluenrg_hal_aci.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\bluenrg_itf.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\bluenrg_l2cap_aci.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\dma.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\eddystone_tlm_service.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\eddystone_uid_service.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\eddystone_url_service.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\gpio.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\hci.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\list.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\main.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\osal.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\rtc.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\spi.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\startup_stm32l053xx.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_adc.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_adc_ex.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_cortex.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_dma.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_flash.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_flash_ex.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_flash_ramfunc.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_gpio.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_i2c.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_i2c_ex.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_msp.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_pwr.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_pwr_ex.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_rcc.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_rcc_ex.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_rtc.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_rtc_ex.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_hal_spi.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\stm32l0xx_it.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\system_stm32l0xx.o"
+#        "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj\x-nucleo-idb04a1.o"
+#        -o "C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE
+#        Google Beacon Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Exe\Eddystone
+#        Configuration.out" --map "C:\Users\bruno
+#        montanari\Desktop\Applications\Point Solution - BLE Google Beacon
+#        Pairing\Source
+#        Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\List\Eddystone
+#        Configuration.map" --config "C:\Users\bruno
+#        montanari\Desktop\Applications\Point Solution - BLE Google Beacon
+#        Pairing\Source Code\Eddystone\Eddystone\EWARM\stm32l053xx_flash.icf"
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = Basic
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0800ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20001fff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                       0xc0
+  .intvec            ro code  0x08000000    0xc0  startup_stm32l053xx.o [1]
+                            - 0x080000c0    0xc0
+
+"P1":                                     0x414e
+  .text              ro code  0x080000c0   0x9d4  stm32l0xx_hal_rcc.o [1]
+  .text              ro code  0x08000a94    0xce  main.o [1]
+  .text              ro code  0x08000b62     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x08000b64     0xc  stm32l0xx_hal.o [1]
+  .text              ro code  0x08000b70    0x24  stm32l0xx_hal.o [1]
+  .text              ro code  0x08000b94    0xe0  I32DivModFast.o [5]
+  .text              ro code  0x08000c74    0x38  stm32l0xx_hal.o [1]
+  .text              ro code  0x08000cac    0xce  gpio.o [1]
+  .text              ro code  0x08000d7a     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x08000d7c    0x34  dma.o [1]
+  .text              ro code  0x08000db0    0xa4  adc.o [1]
+  .text              ro code  0x08000e54    0xcc  rtc.o [1]
+  .text              ro code  0x08000f20    0xf0  spi.o [1]
+  .text              ro code  0x08001010   0x32c  hci.o [1]
+  .text              ro code  0x0800133c   0x390  x-nucleo-idb04a1.o [1]
+  .text              ro code  0x080016cc    0x70  eddystone_url_service.o [1]
+  .text              ro code  0x0800173c   0x2c0  stm32l0xx_hal_rcc_ex.o [1]
+  .text              ro code  0x080019fc   0x192  stm32l0xx_hal_cortex.o [1]
+  .text              ro code  0x08001b8e     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x08001b90     0x2  IntDivZer.o [5]
+  .text              ro code  0x08001b92     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x08001b94    0x20  stm32l0xx_hal_msp.o [1]
+  .text              ro code  0x08001bb4   0x384  stm32l0xx_hal_gpio.o [1]
+  .text              ro code  0x08001f38   0x60c  stm32l0xx_hal_adc.o [1]
+  .text              ro code  0x08002544   0x5fc  stm32l0xx_hal_dma.o [1]
+  .text              ro code  0x08002b40   0x610  stm32l0xx_hal_rtc.o [1]
+  .text              ro code  0x08003150   0x23c  stm32l0xx_hal_rtc_ex.o [1]
+  .text              ro code  0x0800338c     0xc  eddystone_tlm_service.o [1]
+  .text              ro code  0x08003398   0x5d4  stm32l0xx_hal_spi.o [1]
+  .text              ro code  0x0800396c    0x5a  list.o [1]
+  .text              ro code  0x080039c6    0x20  osal.o [1]
+  .text              ro code  0x080039e6    0x18  stm32l0xx_hal.o [1]
+  .text              ro code  0x080039fe    0xb4  bluenrg_hal_aci.o [1]
+  .text              ro code  0x08003ab2    0xb4  bluenrg_gatt_aci.o [1]
+  .text              ro code  0x08003b66   0x1ea  bluenrg_gap_aci.o [1]
+  .text              ro code  0x08003d50   0x118  stm32l0xx_hal_pwr.o [1]
+  .text              ro code  0x08003e68    0x5c  ABImemcpy.o [5]
+  .text              ro code  0x08003ec4    0xd0  bluenrg_itf.o [1]
+  .text              ro code  0x08003f94     0x2  stm32l0xx_hal_spi.o [1]
+  .text              ro code  0x08003f96     0x2  stm32l0xx_hal_spi.o [1]
+  .text              ro code  0x08003f98     0x2  stm32l0xx_hal_spi.o [1]
+  .text              ro code  0x08003f9a     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x08003f9c    0x50  ABImemset.o [5]
+  .text              ro code  0x08003fec    0x58  stm32l0xx_it.o [1]
+  .text              ro code  0x08004044    0x10  stm32l0xx_hal.o [1]
+  .text              ro code  0x08004054    0x58  system_stm32l0xx.o [1]
+  .text              ro code  0x080040ac    0x3c  zero_init3.o [5]
+  .text              ro code  0x080040e8    0x30  copy_init3.o [5]
+  .text              ro code  0x08004118    0x28  data_init.o [5]
+  .iar.init_table    const    0x08004140    0x24  - Linker created -
+  Initializer bytes  const    0x08004164    0x20  <for P2-1>
+  .text              ro code  0x08004184    0x1a  cmain.o [5]
+  .text              ro code  0x0800419e     0x4  low_level_init.o [3]
+  .text              ro code  0x080041a2     0x8  exit.o [3]
+  .text              ro code  0x080041aa     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080041ac     0xa  cexit.o [5]
+  .text              ro code  0x080041b6     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080041b8    0x14  exit.o [6]
+  .text              ro code  0x080041cc    0x10  startup_stm32l053xx.o [1]
+  .text              ro code  0x080041dc     0xc  cstartup_M.o [5]
+  .text              ro code  0x080041e8     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080041ea     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080041ec     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080041ee     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080041f0     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080041f2     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080041f4     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080041f6     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080041f8     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080041fa     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080041fc     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x080041fe     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x08004200     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x08004202     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x08004204     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x08004206     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x08004208     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x0800420a     0x2  startup_stm32l053xx.o [1]
+  .text              ro code  0x0800420c     0x2  startup_stm32l053xx.o [1]
+  .rodata            const    0x0800420e     0x0  zero_init3.o [5]
+  .rodata            const    0x0800420e     0x0  copy_init3.o [5]
+                            - 0x0800420e  0x414e
+
+"P2", part 1 of 3:                          0x20
+  P2-1                        0x20000000    0x20  <Init block>
+    .data            inited   0x20000000     0xc  stm32l0xx_hal_rcc.o [1]
+    .data            inited   0x2000000c    0x10  stm32l0xx_hal_rcc.o [1]
+    .data            inited   0x2000001c     0x4  system_stm32l0xx.o [1]
+                            - 0x20000020    0x20
+
+"P2", part 2 of 3:                         0x800
+  CSTACK                      0x20000020   0x800  <Block>
+    CSTACK           uninit   0x20000020   0x800  <Block tail>
+                            - 0x20000820   0x800
+
+"P2", part 3 of 3:                         0x488
+  .bss               zero     0x20000820   0x2d0  hci.o [1]
+  .bss               zero     0x20000af0    0x78  spi.o [1]
+  .bss               zero     0x20000b68    0x5c  adc.o [1]
+  .bss               zero     0x20000bc4    0x54  spi.o [1]
+  .bss               zero     0x20000c18    0x3c  adc.o [1]
+  .bss               zero     0x20000c54    0x28  eddystone_tlm_service.o [1]
+  .bss               zero     0x20000c7c    0x24  rtc.o [1]
+  .bss               zero     0x20000ca0     0x4  stm32l0xx_hal.o [1]
+  .bss               zero     0x20000ca4     0x1  eddystone_url_service.o [1]
+                            - 0x20000ca5   0x485
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x485:
+          0x20000820  0x485
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x20:
+          0x08004164   0x20
+    1 destination range, total size 0x20:
+          0x20000000   0x20
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                   ro code  ro data  rw data
+    ------                   -------  -------  -------
+C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE Google Beacon Pairing\Source Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj: [1]
+    adc.o                        164               152
+    bluenrg_gap_aci.o            490
+    bluenrg_gatt_aci.o           180
+    bluenrg_hal_aci.o            180
+    bluenrg_itf.o                208
+    dma.o                         52
+    eddystone_tlm_service.o       12                40
+    eddystone_url_service.o      112                 1
+    gpio.o                       206
+    hci.o                        812               720
+    list.o                        90
+    main.o                       206
+    osal.o                        32
+    rtc.o                        204                36
+    spi.o                        240               204
+    startup_stm32l053xx.o        260
+    stm32l0xx_hal.o              144                 4
+    stm32l0xx_hal_adc.o        1 548
+    stm32l0xx_hal_cortex.o       402
+    stm32l0xx_hal_dma.o        1 532
+    stm32l0xx_hal_gpio.o         900
+    stm32l0xx_hal_msp.o           32
+    stm32l0xx_hal_pwr.o          280
+    stm32l0xx_hal_rcc.o        2 516       28       28
+    stm32l0xx_hal_rcc_ex.o       704
+    stm32l0xx_hal_rtc.o        1 552
+    stm32l0xx_hal_rtc_ex.o       572
+    stm32l0xx_hal_spi.o        1 498
+    stm32l0xx_it.o                88
+    system_stm32l0xx.o            88        4        4
+    x-nucleo-idb04a1.o           912
+    --------------------------------------------------
+    Total:                    16 216       32    1 189
+
+command line: [2]
+    --------------------------------------------------
+    Total:
+
+dl6M_tln.a: [3]
+    exit.o                         8
+    low_level_init.o               4
+    --------------------------------------------------
+    Total:                        12
+
+m6M_tl.a: [4]
+    --------------------------------------------------
+    Total:
+
+rt6M_tl.a: [5]
+    ABImemcpy.o                   92
+    ABImemset.o                   80
+    I32DivModFast.o              224
+    IntDivZer.o                    2
+    cexit.o                       10
+    cmain.o                       26
+    copy_init3.o                  48
+    cstartup_M.o                  12
+    data_init.o                   40
+    zero_init3.o                  60
+    --------------------------------------------------
+    Total:                       594
+
+shb_l.a: [6]
+    exit.o                        20
+    --------------------------------------------------
+    Total:                        20
+
+    Linker created                         36    2 048
+------------------------------------------------------
+    Grand Total:              16 842       68    3 237
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x08004140          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08004164          --   Gb  - Linker created -
+?main                   0x08004185         Code  Gb  cmain.o [5]
+APBAHBPrescTable        0x2000000c   0x10  Data  Lc  stm32l0xx_hal_rcc.o [1]
+BlueNRG_DataPresent     0x08001421   0x14  Code  Gb  x-nucleo-idb04a1.o [1]
+BlueNRG_Init            0x080013a9   0x60  Code  Gb  x-nucleo-idb04a1.o [1]
+BlueNRG_RST             0x0800137b   0x2c  Code  Gb  x-nucleo-idb04a1.o [1]
+BlueNRG_SPI_Read_All    0x08001435   0xdc  Code  Gb  x-nucleo-idb04a1.o [1]
+BlueNRG_SPI_Write       0x08001511   0xea  Code  Gb  x-nucleo-idb04a1.o [1]
+CSTACK$$Base            0x20000020          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000820          --   Gb  - Linker created -
+Clear_SPI_EXTI_Flag     0x080015fb    0x8  Code  Gb  x-nucleo-idb04a1.o [1]
+ComputeTemperature::ftsense
+                        0x20000c78    0x4  Data  Lc  eddystone_tlm_service.o [1]
+DMA1_Channel1_IRQHandler
+                        0x08004019    0xa  Code  Gb  stm32l0xx_it.o [1]
+DMA1_Channel2_3_IRQHandler
+                        0x08004023   0x10  Code  Gb  stm32l0xx_it.o [1]
+DMA_SetConfig           0x08002b29   0x18  Code  Lc  stm32l0xx_hal_dma.o [1]
+Disable_SPI_IRQ         0x08001699    0xa  Code  Gb  x-nucleo-idb04a1.o [1]
+EXTI0_1_IRQHandler      0x08004003    0xa  Code  Gb  stm32l0xx_it.o [1]
+EXTI4_15_IRQHandler     0x0800400d    0xc  Code  Gb  stm32l0xx_it.o [1]
+EddystoneTLM_Process::state
+                        0x20000c55    0x1  Data  Lc  eddystone_tlm_service.o [1]
+EddystoneTLM_TimerCallback
+                        0x0800338d    0x8  Code  Gb  eddystone_tlm_service.o [1]
+EddystoneURL_Init       0x08003ec5   0xb0  Code  Gb  bluenrg_itf.o [1]
+EddystoneURL_Process    0x080016cd   0x4c  Code  Gb  eddystone_url_service.o [1]
+EddystoneURL_Process::state
+                        0x20000ca4    0x1  Data  Lc  eddystone_url_service.o [1]
+Enable_SPI_IRQ          0x0800168f    0xa  Code  Gb  x-nucleo-idb04a1.o [1]
+EnterStopMode           0x0800140b   0x16  Code  Gb  x-nucleo-idb04a1.o [1]
+HAL_ADC_ConfigChannel   0x08002351   0xee  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_Init            0x08001f39  0x3f8  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_MspInit         0x08000df9   0x42  Code  Gb  adc.o [1]
+HAL_DMA_IRQHandler      0x0800287d  0x28e  Code  Gb  stm32l0xx_hal_dma.o [1]
+HAL_DMA_Init            0x08002545  0x1ec  Code  Gb  stm32l0xx_hal_dma.o [1]
+HAL_DMA_Start_IT        0x0800275d   0x6e  Code  Gb  stm32l0xx_hal_dma.o [1]
+HAL_Delay               0x080039e7   0x18  Code  Wk  stm32l0xx_hal.o [1]
+HAL_EnableDBGStopMode   0x08000c97    0xc  Code  Gb  stm32l0xx_hal.o [1]
+HAL_GPIO_EXTI_Callback  0x08000d6d    0xe  Code  Gb  gpio.o [1]
+HAL_GPIO_EXTI_IRQHandler
+                        0x08001e51   0x14  Code  Gb  stm32l0xx_hal_gpio.o [1]
+HAL_GPIO_Init           0x08001bb5  0x22a  Code  Gb  stm32l0xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin        0x08001dfd   0x1e  Code  Gb  stm32l0xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x08001e1d   0x32  Code  Gb  stm32l0xx_hal_gpio.o [1]
+HAL_GetTick             0x08000b65    0xc  Code  Wk  stm32l0xx_hal.o [1]
+HAL_IncTick             0x08004045   0x10  Code  Wk  stm32l0xx_hal.o [1]
+HAL_Init                0x08000c75   0x22  Code  Gb  stm32l0xx_hal.o [1]
+HAL_InitTick            0x08000b71   0x24  Code  Wk  stm32l0xx_hal.o [1]
+HAL_MspInit             0x08001b95   0x20  Code  Gb  stm32l0xx_hal_msp.o [1]
+HAL_NVIC_DisableIRQ     0x08001a5b    0xe  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_NVIC_EnableIRQ      0x08001a4d    0xe  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x08001a31   0x1c  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_PWR_EnterSTOPMode   0x08003d51   0x5a  Code  Gb  stm32l0xx_hal_pwr.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x0800173d  0x1de  Code  Gb  stm32l0xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig     0x080005fd  0x31a  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x08000a39   0x1a  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x080009d9   0x60  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x080000c1  0x50e  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RTCEx_EnableBypassShadow
+                        0x0800331d   0x30  Code  Gb  stm32l0xx_hal_rtc_ex.o [1]
+HAL_RTCEx_SetWakeUpTimer_IT
+                        0x08003151   0xb6  Code  Gb  stm32l0xx_hal_rtc_ex.o [1]
+HAL_RTCEx_WakeUpTimerEventCallback
+                        0x08000ef1   0x18  Code  Gb  rtc.o [1]
+HAL_RTCEx_WakeUpTimerIRQHandler
+                        0x0800334d   0x36  Code  Gb  stm32l0xx_hal_rtc_ex.o [1]
+HAL_RTC_Init            0x08002b41  0x13c  Code  Gb  stm32l0xx_hal_rtc.o [1]
+HAL_RTC_MspInit         0x08000eb3   0x3e  Code  Gb  rtc.o [1]
+HAL_RTC_SetDate         0x08002e5d  0x166  Code  Gb  stm32l0xx_hal_rtc.o [1]
+HAL_RTC_SetTime         0x08002c81  0x1d2  Code  Gb  stm32l0xx_hal_rtc.o [1]
+HAL_RTC_WaitForSynchro  0x0800300f   0x30  Code  Gb  stm32l0xx_hal_rtc.o [1]
+HAL_SPI_ErrorCallback   0x0800100f    0x2  Code  Gb  spi.o [1]
+HAL_SPI_Init            0x08003399  0x17c  Code  Gb  stm32l0xx_hal_spi.o [1]
+HAL_SPI_MspInit         0x08000f51   0xa2  Code  Gb  spi.o [1]
+HAL_SPI_RxCpltCallback  0x08003f95    0x2  Code  Wk  stm32l0xx_hal_spi.o [1]
+HAL_SPI_RxHalfCpltCallback
+                        0x08003f97    0x2  Code  Wk  stm32l0xx_hal_spi.o [1]
+HAL_SPI_TransmitReceive_DMA
+                        0x0800351d  0x114  Code  Gb  stm32l0xx_hal_spi.o [1]
+HAL_SPI_TxRxCpltCallback
+                        0x0800100d    0x2  Code  Gb  spi.o [1]
+HAL_SPI_TxRxHalfCpltCallback
+                        0x08003f99    0x2  Code  Wk  stm32l0xx_hal_spi.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x08001a91   0x2a  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_SYSTICK_Callback    0x08001b8d    0x2  Code  Wk  stm32l0xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x08001a69   0x28  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_SYSTICK_IRQHandler  0x08001ad1    0x8  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HCI_Event_CB            0x08001409    0x2  Code  Gb  x-nucleo-idb04a1.o [1]
+HCI_Init                0x08001011   0x2a  Code  Gb  hci.o [1]
+HCI_Isr                 0x080010c7   0x68  Code  Gb  hci.o [1]
+HCI_Process             0x0800105d   0x6a  Code  Gb  hci.o [1]
+HCI_verify              0x0800103b   0x22  Code  Gb  hci.o [1]
+Hal_Read_Serial         0x0800136d    0xe  Code  Gb  x-nucleo-idb04a1.o [1]
+Hal_Write_Serial        0x0800133d   0x30  Code  Gb  x-nucleo-idb04a1.o [1]
+MSIRangeTable           0x08000a78   0x1c  Data  Gb  stm32l0xx_hal_rcc.o [1]
+MX_ADC_Init             0x08000db1   0x48  Code  Gb  adc.o [1]
+MX_DMA_Init             0x08000d7d   0x34  Code  Gb  dma.o [1]
+MX_GPIO_Init            0x08000cad   0xb0  Code  Gb  gpio.o [1]
+MX_RTC_Init             0x08000e55   0x5e  Code  Gb  rtc.o [1]
+MX_SPI1_Init            0x08000f21   0x30  Code  Gb  spi.o [1]
+NVIC_SetPriority        0x080019fd   0x34  Code  Lc  stm32l0xx_hal_cortex.o [1]
+Osal_MemCpy             0x080039c7    0xc  Code  Gb  osal.o [1]
+Osal_MemSet             0x080039d3   0x14  Code  Gb  osal.o [1]
+PLLMulTable             0x20000000    0xc  Data  Lc  stm32l0xx_hal_rcc.o [1]
+RTC_Bcd2ToByte          0x0800308f   0x10  Code  Gb  stm32l0xx_hal_rtc.o [1]
+RTC_ByteToBcd2          0x08003079   0x16  Code  Gb  stm32l0xx_hal_rtc.o [1]
+RTC_EnterInitMode       0x0800303f   0x36  Code  Gb  stm32l0xx_hal_rtc.o [1]
+RTC_IRQHandler          0x08003ff9    0xa  Code  Gb  stm32l0xx_it.o [1]
+Region$$Table$$Base     0x08004140          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08004164          --   Gb  - Linker created -
+SPI_DMAError            0x08003889   0x20  Code  Lc  stm32l0xx_hal_spi.o [1]
+SPI_DMAHalfReceiveCplt  0x08003875    0xa  Code  Lc  stm32l0xx_hal_spi.o [1]
+SPI_DMAHalfTransmitReceiveCplt
+                        0x0800387f    0xa  Code  Lc  stm32l0xx_hal_spi.o [1]
+SPI_DMAReceiveCplt      0x080036f9   0xb8  Code  Lc  stm32l0xx_hal_spi.o [1]
+SPI_DMATransmitReceiveCplt
+                        0x080037b1   0xbc  Code  Lc  stm32l0xx_hal_spi.o [1]
+SPI_WaitOnFlagUntilTimeout
+                        0x080038a9   0xbe  Code  Lc  stm32l0xx_hal_spi.o [1]
+SysTick_Handler         0x08003fed    0xc  Code  Gb  stm32l0xx_it.o [1]
+SystemClock_Config      0x08000ad9   0x76  Code  Gb  main.o [1]
+SystemCoreClock         0x2000001c    0x4  Data  Gb  system_stm32l0xx.o [1]
+SystemInit              0x08004055   0x40  Code  Gb  system_stm32l0xx.o [1]
+__aeabi_idiv            0x08000bc1         Code  Gb  I32DivModFast.o [5]
+__aeabi_idiv0           0x08001b91         Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod         0x08000bc1         Code  Gb  I32DivModFast.o [5]
+__aeabi_memcpy          0x08003e69         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x08003e91         Code  Wk  ABImemcpy.o [5]
+__aeabi_memset          0x08003f9d         Code  Gb  ABImemset.o [5]
+__aeabi_uidiv           0x08000bc7         Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x08000bc7         Code  Gb  I32DivModFast.o [5]
+__cmain                 0x08004185         Code  Gb  cmain.o [5]
+__exit                  0x080041b9   0x14  Code  Gb  exit.o [6]
+__iar_Memset4_word      0x08003fbd         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x08003fa9         Code  Gb  ABImemset.o [5]
+__iar_copy_init3        0x080040e9   0x30  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x08004119   0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x080041dd         Code  Gb  cstartup_M.o [5]
+__iar_zero_init3        0x080040ad   0x3c  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0800419f    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32l053xx.o [1]
+_call_main              0x08004191         Code  Gb  cmain.o [5]
+_exit                   0x080041ad         Code  Gb  cexit.o [5]
+_main                   0x0800419b         Code  Gb  cmain.o [5]
+aci_gap_delete_ad_type  0x08003cf9   0x2a  Code  Gb  bluenrg_gap_aci.o [1]
+aci_gap_init            0x08003b67   0x82  Code  Gb  bluenrg_gap_aci.o [1]
+aci_gap_set_discoverable
+                        0x08003be9   0xb8  Code  Gb  bluenrg_gap_aci.o [1]
+aci_gap_update_adv_data
+                        0x08003ca1   0x58  Code  Gb  bluenrg_gap_aci.o [1]
+aci_gatt_init           0x08003ab3   0x38  Code  Gb  bluenrg_gatt_aci.o [1]
+aci_gatt_update_char_value
+                        0x08003aeb   0x7c  Code  Gb  bluenrg_gatt_aci.o [1]
+aci_hal_set_tx_power_level
+                        0x08003a65   0x4e  Code  Gb  bluenrg_hal_aci.o [1]
+aci_hal_write_config_data
+                        0x080039ff   0x66  Code  Gb  bluenrg_hal_aci.o [1]
+adc_buf                 0x20000c5c   0x14  Data  Gb  eddystone_tlm_service.o [1]
+adcount                 0x20000c74    0x4  Data  Lc  eddystone_tlm_service.o [1]
+assert_failed           0x08000b61    0x2  Code  Gb  main.o [1]
+exit                    0x080041a3    0x8  Code  Gb  exit.o [3]
+hadc                    0x20000b68   0x5c  Data  Gb  adc.o [1]
+hciReadPacketBuffer     0x20000834  0x2bc  Data  Lc  hci.o [1]
+hciReadPktPool          0x20000824    0x8  Data  Gb  hci.o [1]
+hciReadPktRxQueue       0x2000082c    0x8  Data  Gb  hci.o [1]
+hci_le_set_scan_resp_data
+                        0x080012d9   0x3c  Code  Gb  hci.o [1]
+hci_send_cmd            0x08001137   0x34  Code  Gb  hci.o [1]
+hci_send_req            0x0800118f  0x144  Code  Gb  hci.o [1]
+hci_write               0x0800112f    0x8  Code  Gb  hci.o [1]
+hdma_adc                0x20000c18   0x3c  Data  Gb  adc.o [1]
+hdma_spi1_rx            0x20000af0   0x3c  Data  Gb  spi.o [1]
+hdma_spi1_tx            0x20000b2c   0x3c  Data  Gb  spi.o [1]
+hrtc                    0x20000c7c   0x24  Data  Gb  rtc.o [1]
+hspi1                   0x20000bc4   0x54  Data  Gb  spi.o [1]
+list_init_head          0x0800396d    0x6  Code  Gb  list.o [1]
+list_insert_head        0x08003981    0xe  Code  Gb  list.o [1]
+list_insert_tail        0x0800398f    0xe  Code  Gb  list.o [1]
+list_is_empty           0x08003973    0xe  Code  Gb  list.o [1]
+list_remove_head        0x080039ab    0xc  Code  Gb  list.o [1]
+list_remove_node        0x0800399d    0xe  Code  Gb  list.o [1]
+main                    0x08000a95   0x44  Code  Gb  main.o [1]
+move_list               0x0800116b   0x24  Code  Lc  hci.o [1]
+readPacketListFull      0x20000820    0x1  Data  Lc  hci.o [1]
+set_irq_as_input        0x0800162f   0x30  Code  Gb  x-nucleo-idb04a1.o [1]
+set_irq_as_output       0x08001603   0x2c  Code  Gb  x-nucleo-idb04a1.o [1]
+tsense                  0x20000c58    0x2  Data  Lc  eddystone_tlm_service.o [1]
+update                  0x20000c54    0x1  Data  Lc  eddystone_tlm_service.o [1]
+uptime                  0x20000c70    0x4  Data  Lc  eddystone_tlm_service.o [1]
+us150Delay              0x08001671   0x1e  Code  Gb  x-nucleo-idb04a1.o [1]
+uwTick                  0x20000ca0    0x4  Data  Lc  stm32l0xx_hal.o [1]
+vrefint                 0x20000c56    0x2  Data  Lc  eddystone_tlm_service.o [1]
+
+
+[1] = C:\Users\bruno montanari\Desktop\Applications\Point Solution - BLE Google Beacon Pairing\Source Code\Eddystone\Eddystone\EWARM\Eddystone_Configuration\Obj
+[2] = command line
+[3] = dl6M_tln.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  16 842 bytes of readonly  code memory
+      68 bytes of readonly  data memory
+   3 237 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

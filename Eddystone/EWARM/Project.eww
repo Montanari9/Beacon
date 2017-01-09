@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\Eddystone.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>Eddystone</name>
+      <member>
+        <project>Eddystone</project>
+        <configuration>Eddystone Configuration</configuration>
+      </member>
+      <member>
+        <project>Eddystone</project>
+        <configuration>Eddystone-URL</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
